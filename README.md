@@ -1,5 +1,4 @@
 ---
-
 ## 📘 `README.md` – Resume Editor with AI Enhancement
 
 ```markdown
@@ -165,7 +164,6 @@ Developed with 💖 by **Mukunda Mondal**
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
 ---
 
 ## 🛠️ Future Improvements
@@ -173,5 +171,4 @@ This project is licensed under the **MIT License**.
 * 🖨️ Export to PDF
 * 📱 Mobile responsive layout
 * 🎨 Multiple resume templates
-* 🌙 Theme switcher
 ```
