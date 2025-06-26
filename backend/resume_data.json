@@ -1,0 +1,27 @@
+{
+  "name": "John Doe",
+  "summary": "Experienced developer...",
+  "experience": [
+    "\u2728 Enhanced experience: \u2728 Enhanced experience: As a learner ",
+    "data structures and algorithms. I am applying my skills to solve real-world problems and challeges.  \u2728"
+  ],
+  "education": [
+    "BSc in CS - ABC University"
+  ],
+  "skills": [
+    "Python",
+    "React",
+    "FastAPI"
+  ],
+  "projects": [
+    "Portfolio Website",
+    "E-commerce App"
+  ],
+  "certifications": [
+    "AWS Certified Developer"
+  ],
+  "hobbies": [
+    "Reading",
+    "Chess"
+  ]
+}
