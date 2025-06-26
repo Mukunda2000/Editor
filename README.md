@@ -13,7 +13,7 @@ A sleek, modern, and responsive resume editor built with React.js and FastAPI, o
 
 ```
 
-📁 resume-editor-ai/
+📁 Resume-Editor/
 ├── frontend/     
 └── backend/      
 
@@ -26,8 +26,8 @@ A sleek, modern, and responsive resume editor built with React.js and FastAPI, o
  🔽 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/resume-editor-ai.git
-cd resume-editor-ai
+git clone https://github.com/your-username/Resume-Editor.git
+cd Resume-Editor
 ````
 
 ---
