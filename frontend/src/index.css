@@ -1,0 +1,142 @@
+/* === Layout Container === */
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* === LEFT: Editor Panel === */
+.editor {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background: linear-gradient(to bottom right, #f8fafc, #e2e8f0);
+  color: #1e293b;
+  border-right: 2px solid #cbd5e1;
+  animation: slideInLeft 0.5s ease-out;
+}
+
+/* === RIGHT: Dark Preview Panel === */
+.preview-panel {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background: linear-gradient(to bottom right, #0f172a, #1e293b);
+  color: #f8fafc;
+  animation: slideInRight 0.5s ease-out;
+  border-left: 2px solid #1e293b;
+}
+
+/* === Resume Preview Box === */
+.resume-preview {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.resume-preview h1 {
+  font-size: 28px;
+  text-align: center;
+  color: #facc15;
+  margin-bottom: 20px;
+}
+
+.resume-preview h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #93c5fd;
+  border-bottom: 1px solid #475569;
+  padding-bottom: 4px;
+}
+
+.resume-preview p,
+.resume-preview li {
+  font-size: 15px;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+.resume-preview ul {
+  padding-left: 20px;
+}
+
+/* === Animations === */
+@keyframes slideInLeft {
+  0% { transform: translateX(-50%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+  0% { transform: translateX(50%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+/* === Form Controls === */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background: #ffffff;
+  color: #0f172a;
+}
+
+input:focus, textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 6px #3b82f680;
+  outline: none;
+}
+
+/* === Buttons === */
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin: 5px 6px 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(59, 130, 246, 0.4);
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+/* === Upload === */
+.upload {
+  margin-bottom: 20px;
+}
+
+.upload label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* === Spacing Between Sections === */
+.section {
+  margin-bottom: 24px;
+}
+
+.section-spaced {
+  margin-bottom: 36px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
