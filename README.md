@@ -1,8 +1,8 @@
 ---
-## 📘 `README.md` – Resume Editor with AI Enhancement
+ 📘 `README.md` – Resume Editor with AI Enhancement
 
 ```markdown
-# 🧠 Resume Editor with AI Enhancement
+ 🧠 Resume Editor with AI Enhancement
 
 A beautiful, modern, and responsive resume editor built using **React.js** and **FastAPI**, featuring:
 - ✅ Resume Upload (.pdf or .docx)
@@ -14,7 +14,7 @@ A beautiful, modern, and responsive resume editor built using **React.js** and *
 
 ---
 
-## 🗂️ Project Structure
+ 🗂️ Project Structure
 
 ```
 
@@ -26,9 +26,9 @@ A beautiful, modern, and responsive resume editor built using **React.js** and *
 
 ---
 
-## ⚙️ Setup Instructions
+ ⚙️ Setup Instructions
 
-### 🔽 Clone the Repository
+ 🔽 Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/resume-editor-ai.git
@@ -37,21 +37,21 @@ cd resume-editor-ai
 
 ---
 
-## 🖥️ Frontend Setup (`React`)
+ 🖥️ Frontend Setup (`React`)
 
-### 📁 Go to the `frontend` directory:
+ 📁 Go to the `frontend` directory:
 
 ```bash
 cd frontend
 ```
 
-### 📦 Install dependencies:
+ 📦 Install dependencies:
 
 ```bash
 npm install
 ```
 
-### ▶️ Run the frontend app:
+ ▶️ Run the frontend app:
 
 ```bash
 npm start
@@ -62,15 +62,15 @@ npm start
 
 ---
 
-## 🚀 Backend Setup (`FastAPI`)
+ 🚀 Backend Setup (`FastAPI`)
 
-### 📁 Navigate to backend directory:
+ 📁 Navigate to backend directory:
 
 ```bash
 cd ../backend
 ```
 
-### 🐍 Create and activate a virtual environment:
+ 🐍 Create and activate a virtual environment:
 
 ```bash
 # For Windows:
@@ -82,13 +82,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 📦 Install dependencies:
+ 📦 Install dependencies:
 
 ```bash
 pip install fastapi uvicorn python-multipart
 ```
 
-### ▶️ Run the backend server:
+ ▶️ Run the backend server:
 
 ```bash
 uvicorn main:app --reload
@@ -98,7 +98,7 @@ uvicorn main:app --reload
 
 ---
 
-## 🧠 AI Enhancement API (Mock)
+ 🧠 AI Enhancement API (Mock)
 
 * Endpoint: `POST /ai-enhance`
 * Sends a section and content to the backend, gets improved content in return
@@ -124,7 +124,7 @@ Returns:
 
 ---
 
-## 📂 File Upload Support
+ 📂 File Upload Support
 
 * Accepts `.pdf` and `.docx` files
 * Parses them with a mocked response
@@ -132,7 +132,7 @@ Returns:
 
 ---
 
-## 🎨 Features
+ 🎨 Features
 
 | Feature               | Description                                     |
 | --------------------- | ----------------------------------------------- |
@@ -146,14 +146,14 @@ Returns:
 ---
 
 
-## 🖼️ Screenshot
+ 🖼️ Screenshot
 
 ![Resume Editor Screenshot](./frontend/src/assets/Screenshot.png)
 
 
 ---
 
-## 👨‍💻 Author
+ 👨‍💻 Author
 
 Developed with 💖 by **Mukunda Mondal**
 📬 Contact: [mondalmukunda2000@gmail.com](mailto:mondalmukunda2000@gmail.com)
@@ -161,12 +161,7 @@ Developed with 💖 by **Mukunda Mondal**
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
----
-
-## 🛠️ Future Improvements
+ 🛠️ Future Improvements
 
 * 🖨️ Export to PDF
 * 📱 Mobile responsive layout
