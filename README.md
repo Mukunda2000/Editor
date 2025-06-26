@@ -1,5 +1,6 @@
 
 🧠 Resume Editor with AI Enhancement
+
 A sleek, modern, and responsive resume editor built with React.js and FastAPI, offering:
 - ✅ Resume Upload (.pdf or .docx)
 - ✏️ Live Editing of Resume Sections
