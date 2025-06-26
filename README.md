@@ -3,7 +3,6 @@
 
 ```markdown
  🧠 Resume Editor with AI Enhancement
-
 A beautiful, modern, and responsive resume editor built using **React.js** and **FastAPI**, featuring:
 - ✅ Resume Upload (.pdf or .docx)
 - ✏️ Live Editing of Resume Sections
