@@ -26,7 +26,7 @@ A sleek, modern, and responsive resume editor built with React.js and FastAPI, o
  🔽 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Resume-Editor.git
+git clone https://github.com/Mukunda2000/Resume-Editor.git
 cd Resume-Editor
 ````
 
